@@ -1,0 +1,14 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define WIFI_SSID "<YOUR SSID>"
+#define WIFI_PASSWORD "<YOUR PASSWORD>"
+
+#define API_KEY "YOUR API KEY"
+#define DATABASE_URL "<YOUR DATABASE URL>"
+
+#define USER_EMAIL  "<YOUR EMAIL>"
+#define USER_PASSWORD  "YOUR EMAIL PASSWORD"
+
+#define NTP_SERVER "pool.ntp.org"
+#endif // CONFIG_H
