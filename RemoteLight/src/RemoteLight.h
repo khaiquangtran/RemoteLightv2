@@ -78,9 +78,9 @@ namespace remoteLight
 		bool mFlagReconnectFirebase;
 		bool mIsLightScheduleChecking;
 
-		uint16_t mCounterCheckDataFirebase;
-		uint16_t mCounterCheckDataNTP;
-		uint16_t mCounterHandleError;
+		uint32_t mCounterCheckDataFirebase;
+		uint32_t mCounterCheckDataNTP;
+		uint32_t mCounterHandleError;
 
 		/**
 		 * @brief Process the current control mode in the queue
